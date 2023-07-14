@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <title>Crispy Restaurant</title>
+        <link rel="Stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <a class="logo" href="index.html"><img src="img/logo.png" alt="Crispy"></a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="order.html">My Order</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fa-solid fa-bars" id="menu-bars"></i>
+                <a class="fa-solid fa-circle-user" href="login.html"></a>
+            </div>
+        </header>
+
+        <!--About Section-->
+        <section class="about" id="about">
+            <div class="image">
+                <img src="img/burger.png">
+            </div>
+            <div class="container">
+                <h3 class="title">Welcome to our restaurant</h3>
+                <P>
+                    We are team Frontenders that came from 
+                    humble beginnings. Equipped with nothing but sheer 
+                    perseverance, we took a leap of faith by quitting our 
+                    full time job to start a stall to sell burgers back in 2020.
+                </P>
+                <a href="/about.html" class="button">Read More</a>
+            </div>
+        </section>
+
+        <!--Popular Food Section-->
+        <section class="food" id="food">
+            <div class="heading">
+                <h3>Popular Food</h3>
+            </div>
+            <div class="swiper food-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide" data-name="food1">
+                        <img src="img/nasi.png">
+                        <h3>Nasi Lemak</h3>
+                        <div class="price">
+                            RM9.90
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" data-name="food2">
+                        <img src="img/food1.png">
+                        <h3>Spicy Beef Deluxe Burger</h3>
+                        <div class="price">
+                            RM15.00
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" data-name="food3">
+                        <img src="img/sides.png">
+                        <h3>French Fries</h3>
+                        <div class="price">
+                            RM7.90
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" data-name="food4">
+                        <img src="img/burger.png">
+                        <h3>Spicy Chicken Deluxe Burger</h3>
+                        <div class="price">
+                            RM15.00
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" data-name="food5">
+                        <img src="img/food2.png">
+                        <h3>Spicy Fish Deluxe Burger</h3>
+                        <div class="price">
+                            RM15.00
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="food-bottom">
+                <a href="/menu.html">Order Now</a>
+            </div>
+        </section>
+
+        <!--Footer Section-->
+        <section class="footer">
+
+            <div class="foot-container">
+                
+                <div class="foot-column">
+                    <h3>Locations</h3>
+                    <a>Malaysia</a>
+                    <a>Singapore</a>
+                    <a>Thailand</a>
+                    <a>Indonesia</a>
+                </div>
+                
+                <div class="foot-column">
+                    <h3>Support</h3>
+                    <a href="/tnc.html">Terms & Conditions</a>
+                    <a href="/policy.html">Privacy Policy</a>
+                </div>
+
+                <div class="foot-column">
+                    <h3>Contact</h3>
+                    <a href="mailto:Edward.Ang@1utar.my">Edward.Ang@1utar.my</a>
+                    <a href="tel:+6011-5508 5932">+6011-5508 5932</a>
+                </div>
+
+                <div class="foot-column">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.instagram.com/crispyrestaurant2022/">Instagram</a>
+                    <a href="https://twitter.com/CrispyResto">Twitter</a>
+                </div>
+
+            </div>
+            <div class="credit">Copyright &copy; Crispy Restaurant 2022</div>
+
+        </section>
+
+        <!--Cookies Pop Up-->
+        <div id="cookies">
+            <p>
+                This website uses cookies to ensure you get 
+                the best experience on our website.
+            </p>
+            <button id="acceptCookies">Got it</button>
+        </div>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
